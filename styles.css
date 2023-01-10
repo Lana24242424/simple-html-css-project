@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
   font-size: 16px;
@@ -14,8 +11,19 @@ body {
 }
 
 .container {
-    margin: auto 25%;
-    
+    margin: auto;
+    max-width: 750px;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 10px;
 }
 
 .info-text p {
@@ -28,9 +36,12 @@ body {
 .sections {
     border-radius: 6px;
     padding: 20px;
-    margin: 10px;
+    margin-bottom: 10px;
     max-width: 700;
-   
+}
+
+.sections h2 {
+    margin-bottom: 10px;
 }
 
 .work {
