@@ -10,18 +10,33 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <img
-      src="/photoes/Profile Large.jpeg"
-      alt="A photo of Svetlana Valeeva"
-      width="150"
-      alt="Svetlana Valeeva Photo"
-    />
-    <h1>Svetlana Valeeva</h1>
+    <div class="info">
+      <img
+        src="/photoes/Profile Large.jpeg"
+        alt="A photo of Svetlana Valeeva"
+        width="150"
+      />
+      <div class="info-text">
+        <h1>Svetlana Valeeva</h1>
 
-    <p>I am a <strong>front end web developer</strong></p>
+        <p>I am a <strong>front end web developer</strong></p>
 
+        <h4>Social Media</h4>
+
+        <a href="https://www.instagram.com"  
+           target="_blank">Instagram</a>
+        |
+        <a href="https://www.facebook.com" 
+           target="_blank">FB</a>
+        |
+        <a href="https://au.linkedin.com"
+          target="_blank"
+          >LinkedIn</a>
+      </div>
+    </div>
+    <div class="sections work">
     <h2>Work Experience</h2>
-    <table width="300">
+    <table width="350">
       <thead>
         <tr>
           <th>Name</th>
@@ -47,14 +62,16 @@
         </tr>
       </tbody>
     </table>
-
+</div>
+<div class="sections hobbies">
     <h2>My Hobbies</h2>
     <ol>
       <li>Travelling</li>
       <li>Exersising</li>
       <li>Programming</li>
     </ol>
-
+</div>
+<div class="sections contacts">
     <h2>Contact me</h2>
     <form action="">
       <div>
@@ -76,26 +93,9 @@
         <textarea cols="30" rows="5" placeholder="Введите сообщение"></textarea>
       </div>
       <div>
-          <input type="submit" id="message" value="Send!">
+        <input type="submit" id="message" value="Send!" />
       </div>
     </form>
-
-    <h4>Social Media</h4>
-
-    <a href="https://www.instagram.com" target="_blank">Instagram</a>
-    |
-    <a
-      href="https://www.facebook.com
-    "
-      target="_blank"
-      >FB</a
-    >
-    |
-    <a
-      href="https://au.linkedin.com
-    "
-      target="_blank"
-      >LinkedIn</a
-    >
+</div>
   </body>
 </html>
